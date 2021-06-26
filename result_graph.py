@@ -1,0 +1,7 @@
+plt.plot(df.iloc[2116:, 1:2].values, color = 'black', label = 'Pfizer Stock Price')
+plt.plot(predicted_stock_price, color = 'blue', label = 'Predicted Pfizer Stock Price')
+plt.title('Pfizer Stock Price Prediction')
+plt.xlabel('Time')
+plt.ylabel('Pfizer Stock Price')
+plt.legend()
+plt.show()
